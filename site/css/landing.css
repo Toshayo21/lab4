@@ -1,0 +1,1018 @@
+:root {
+    --font-montserrat: Montserrat;
+    --color-green: #295135;
+    --color-brown: #9f6a38;
+    --color-light: #EFEAE4;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: var(--font-montserrat);
+}
+/* ---------------------top-----------------------*/
+
+.menu .container {
+    display: flex;
+    margin: 0 auto;
+    background: var(--color-green);
+    height: 118.4px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    background: var(--color-green);
+}
+
+.menu .logo {
+    margin-top: 8px;
+}
+
+.menu .text-logo {
+    margin-left: 12px;
+    color: white;
+    letter-spacing: 0.045em;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.menu .soc-networks {
+    display: flex;
+    grid-gap :18px;
+    margin-top: 4px;
+    margin-left: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    white-space: nowrap;
+}
+
+.menu .pages {
+    display: flex;
+    grid-gap :40px;
+    margin-left: 80px;
+    align-items: center;
+}
+
+.menu .location-icon {
+    margin-left: 80px;
+    margin-top: -35px;
+}
+
+.menu .location-text {
+    margin-left: 8px;
+    margin-top: -20px;
+}
+
+.menu .phone-icon {
+    margin-left: 80px;
+    margin-top: -35px;
+}
+
+.menu .phone-text {
+    margin-left: 8px;
+    margin-top: -20px;
+}
+
+
+
+/* ---------------------main-----------------------*/
+
+
+.services_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 2px solid #295135;
+    max-width: 192px;
+    height: 53.6px;
+    color: #295135;
+    margin: 50px auto 0;
+}
+
+.services .line-b {
+    height: 64px;
+    background-color: var(--color-light);
+}
+
+.services_button .text {
+    letter-spacing: 0.02em;
+    font-size: 17.6px;
+}
+
+/* welcome */
+
+.welcome .major {
+    padding-top: 220px;
+    font-size: 80px;
+    /*white-space: nowrap;*/
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.main .welcome {
+    margin: 0 auto;
+    max-width: 1920px;
+    height: 720px;
+    background-image: url("../images/lnd_welc.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.services_button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    max-width: 192px;
+    height: 53.6px;
+    color: white;
+    margin: 56px auto 0;
+    background-color: var(--color-brown);
+}
+
+.services_button1 .text1 {
+    letter-spacing: 0.02em;
+    font-size: 17.6px;
+    font-weight: 500;
+}
+
+/* choose */
+
+.main .choose .yoga, .main .choose .certified, .main .choose .creativity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-gap: 36px;
+}
+
+.main .choose .all {
+    display: flex;
+    justify-content: center;
+    grid-gap: 150px;
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+
+.main .choose .minor {
+    display: flex;
+    max-width: 350px;
+    justify-content: center;
+    text-align: center;
+}
+
+.main .maj2 {
+    display: flex;
+    justify-content: center;
+    color: var(--color-brown);
+    font-size: 24px;
+}
+
+.main .choose .icon {
+    display: flex;
+    justify-content: center;
+}
+
+.main .welcome .major, .main .choose .major {
+    text-align: center;
+}
+
+.main .welcome .minor {
+    font-size: 24px;
+    white-space: nowrap;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.main .choose .major {
+    margin-top: 56px;
+    font-size: 26px;
+}
+
+.main .choose .certified .icon {
+    height: 144px;
+}
+
+.choose .minor, .services .minor {
+    line-height: 1.6em;
+}
+
+.choose .creativity .minor {
+    max-width: 360px;
+}
+/* services */
+
+.main .services {
+    background: var(--color-light);
+    margin-top: 56px;
+}
+
+.main .services .yoga, .main .services .certified, .main .services .creativity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-gap: 36px;
+}
+
+.main .services .all {
+    display: flex;
+    justify-content: center;
+    grid-gap: 150px;
+    flex-wrap: wrap;
+}
+
+.main .services .minor {
+    display: flex;
+    max-width: 330px;
+    justify-content: center;
+    text-align: center;
+}
+
+.main .services .maj2 {
+    display: flex;
+    justify-content: center;
+}
+
+.main .services .icon {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.main .services .major {
+    text-align: center;
+    padding-top: 56px;
+    padding-bottom: 70px;
+    font-size: 26px;
+}
+
+.main .services .price {
+    display: flex;
+    justify-content: center;
+}
+
+
+.main .services .price {
+    color: var(--color-brown);
+    font-size: 24px;
+}
+
+.services .certified .minor {
+    max-width: 360px;
+}
+
+.services .creativity .minor {
+    max-width: 330px;
+}
+
+/* about us */
+
+.main .about .major {
+    text-align: center;
+    padding-top: 56px;
+    padding-bottom: 70px;
+    font-size: 26px;
+}
+
+.main .about .first_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-gap: 14.5px;
+    margin-top: -100px;
+}
+
+.main .about .second_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-gap: 18px;
+    line-height: 1.6em;
+    padding-left: 40px;
+}
+
+.main .about .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-gap: 28px;
+    max-width: 870px;
+    /*padding-left: 20px;*/
+}
+
+.main .about .name {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+.main .about .degree {
+    font-style: italic;
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+    padding-left: 40px;
+}
+
+.choose, .services, .about {
+    font-size: 20px;
+}
+
+.main .about .all {
+    display: flex;
+    justify-content: center;
+    grid-gap: 150px;
+}
+
+.main .about .person {
+    display: flex;
+    margin-top: -57px;
+    padding-right: 115px;
+}
+/* ---------------------footer-----------------------*/
+
+.footer .container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1920px;
+    background: var(--color-green);
+    height: 230px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    background: var(--color-green);
+    margin-top: 70px;
+}
+
+.footer .logo {
+    margin-top: 28px;
+}
+
+.footer .text-logo {
+    margin-left: -140px;
+    color: white;
+    letter-spacing: 0.045em;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.footer .logo::after {
+    content: '';
+    background-color: white;
+    height: 2px;
+    display: block;
+    margin-top:20px;
+    width: 223px;
+}
+
+.footer .soc-networks {
+    display: flex;
+    grid-gap :18px;
+    margin-top: 34px;
+    justify-content: center;
+}
+
+.footer .chapters {
+    display: flex;
+    grid-gap : 12px;
+    margin-left: 400px;
+    flex-direction: column;
+}
+
+.footer .contacts {
+    display: flex;
+    grid-gap : 7.5px;
+    margin-left: 200px;
+    margin-top: 11px;
+    flex-direction: column;
+}
+
+.footer .con-loc {
+    display: flex;
+    grid-gap : 13px;
+}
+
+.footer .con-phone {
+    margin-left: 2px;
+    display: flex;
+    grid-gap : 12px;
+}
+
+.footer .con-mail {
+    margin-left: 2px;
+    display: flex;
+    grid-gap : 12px;
+}
+
+.footer .full-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer .logo-and-soc {
+    display: flex;
+    flex-direction: column;
+    margin-left: -93px;
+    margin-bottom: 25px;
+}
+
+.footer .head-ch {
+    font-size: 24px;
+    margin-bottom: 15px;
+    margin-top: 9px;
+}
+
+.footer .head-con {
+    font-size: 24px;
+    margin-bottom: 19px;
+    margin-top: 3px;
+}
+
+.footer .two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+button {
+    background-color: var(--color-green);
+    height: 90px;
+    border: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: var(--font-montserrat);
+    white-space: nowrap;
+    color: white;
+}
+
+button:hover {
+    color: rgb(186, 155, 252);
+    transition: 0.05s;
+}
+
+.button:hover {
+    color: rgb(186, 155, 252);
+    transition: 0.05s;
+}
+
+
+.backlight:hover {
+    filter: invert(31%) sepia(46%) saturate(4307%) hue-rotate(213deg) brightness(108%) contrast(101%);
+}
+.backlight:hover + .logo-text {
+    filter: invert(31%) sepia(46%) saturate(4307%) hue-rotate(213deg) brightness(108%) contrast(101%);
+}
+
+.logo-text:hover {
+    filter: invert(31%) sepia(46%) saturate(4307%) hue-rotate(213deg) brightness(108%) contrast(101%);
+}
+
+.first:hover + .second {
+    filter: invert(31%) sepia(46%) saturate(4307%) hue-rotate(213deg) brightness(108%) contrast(101%);
+}
+
+
+.main {
+    position: relative;
+}
+
+.burger {
+    display: none;
+}
+
+.ph-menu {
+    display: none;
+}
+
+.main .right-menu {
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    transform: translateY(-200%);
+    transition: all 0.5s ease-in-out;
+    border-radius: 0 0 20px 20px;
+    background-color: var(--color-brown);
+}
+
+.main .right-menu.active {
+    transform: translateY(0%);
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    padding: 65px 0 0;
+}
+
+.bm {
+    font-size: 20px;
+}
+
+.menu .main-logo {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+
+
+@media (max-width: 1470px) {
+    .menu .soc-networks {
+        margin-left: 40px;
+    }
+
+    .menu .pages {
+        grid-gap :30px;
+        margin-left: 40px;
+    }
+
+    .menu .location-icon {
+        margin-left: 40px;
+        margin-top: -35px;
+    }
+
+    .menu .phone-icon {
+        margin-left: 40px;
+        margin-top: -35px;
+    }
+
+    .footer .chapters {
+        display: flex;
+        grid-gap : 12px;
+        margin-left: 215px;
+        flex-direction: column;
+    }
+
+    .footer .contacts {
+        display: flex;
+        grid-gap : 7.5px;
+        margin-left: 205px;
+        margin-top: 11px;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1350px) {
+    .menu .soc-networks, .menu .pages, .menu .location-icon, .menu .location-text, .menu .phone-icon, .menu .phone-text {
+        display: none;
+    }
+
+    .ph-menu {
+        display: block;
+        position: absolute;
+        right: 110px;
+        top: 45px;
+    }
+
+    .burger {
+        display: flex;
+        width: 50px;
+        height: 50px;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .burger .burgerbtn {
+        display: block;
+        position: relative;
+        width: 40px;
+        height: 30px;
+    }
+
+    .burger .burgerbtn::before, .burger .burgerbtn::after {
+        content: '';
+        position: absolute;
+        right: 0;
+        width: 100%;
+        height: 4px;
+        border-radius: 2px;
+        background-color: white;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .burger .burgerbtn::before {
+        top: 0;
+        transform: translateY(25%);
+    }
+
+    .burger .burgerbtn::after {
+        top: calc(100% - 4px);
+        transform: translateY(-25%);
+    }
+
+    .burgerbtn.is-active .burger-line{
+        transform: scale(0);
+        transition: all 0.5s ease-in-out;
+    }
+
+    .burgerbtn.is-active::before{
+        transform: translateY(-50%) rotate(45deg);
+        top: 50%;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .burgerbtn.is-active::after{
+        top: 50%;
+        transform: translateY(-50%) rotate(-45deg);
+        transition: all 0.5s ease-in-out;
+    }
+
+    .burger-line {
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        background-color: white;
+        border-radius: 2px;
+        transform: translateY(-50%);
+        top: 50%;
+        right: 0;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .menu .container {
+        padding-right: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main .content .contacts {
+        margin-right: 0;
+    }
+
+    .main .content .address {
+        margin-right: 0;
+        margin-top: 40px;
+    }
+
+    .main .content .soc {
+        margin-right: 0;
+        margin-top: 40px;
+    }
+
+    .main .con-phone {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main .con-mail {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main .con-loc {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main .ph-mail {
+        grid-gap: 20px;
+    }
+
+    .footer .logo::after {
+        display: none;
+    }
+
+    .footer .container {
+        display: block;
+        margin: 0 auto;
+        max-width: 1920px;
+        height: 360px;
+        color: white;
+        align-items: normal;
+        justify-content: normal;
+    }
+
+    .footer .logo {
+        display: flex;
+        margin-left: 30px;
+        margin-top: 38px;
+    }
+
+    .footer .logo-text {
+        position: absolute;
+        margin-left: 254px;
+        margin-top: 34px;
+    }
+
+    .footer .two {
+        display: flex;
+        margin-top: 35px;
+    }
+
+    .footer .logo-and-soc {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0;
+        margin-bottom: 25px;
+        justify-content: space-between;
+    }
+
+    .footer .soc-networks {
+        margin-right: 50px;
+        margin-top: 51px;
+    }
+
+    .footer .chapters {
+        margin-left: 30px;
+    }
+
+    .footer .contacts {
+        margin-top: 6px;
+        margin-right: 48px;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 1377px) {
+    .main .choose .all {
+        grid-gap: 75px;
+    }
+
+    .main .services .all {
+        grid-gap: 75px;
+    }
+}
+
+@media (max-width: 1227px) {
+    .main .choose .all {
+        grid-gap: 150px;
+    }
+    .choose .all .creativity {
+        margin-top: -70px;
+    }
+
+    .main .services .all {
+        grid-gap: 150px;
+    }
+    .services .all .creativity {
+        margin-top: -70px;
+    }
+
+    .main .about .person {
+        display: none;
+    }
+}
+
+@media (max-width: 917px) {
+    .main .choose .all {
+        grid-gap: 75px;
+    }
+
+    .choose .all .creativity {
+        margin-top: 0;
+    }
+
+    .main .services .all {
+        grid-gap: 75px;
+    }
+
+    .services .all .creativity {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 1286px) {
+    .main .about .name {
+        padding-top: 32px;
+    }
+}
+
+@media (max-width: 1227px) {
+    .main .about .name {
+        padding-top: 86px;
+        margin: 0;
+    }
+
+    .main .about .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: normal;
+        grid-gap: 28px;
+        max-width: 100%;
+        padding-bottom: 50px;
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .main .choose .all {
+        grid-gap: 100px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .choose .all .creativity {
+        margin-top: 0;
+    }
+
+    .main .services .all {
+        grid-gap: 130px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services .all .creativity {
+        margin-top: 0;
+    }
+    .main .welcome .minor {
+        font-size: 40px;
+    }
+
+    .services_button .text {
+        font-size: 30px;
+    }
+
+    .services_button {
+        border-radius: 25px;
+        max-width: 300px;
+        height: 90px;
+    }
+
+    .services_button1 {
+        border-radius: 15px;
+        max-width: 300px;
+        height: 90px;
+    }
+
+    .services_button1 .text1 {
+        font-size: 30px;
+    }
+
+    .welcome .major {
+        padding-top: 150px;
+        font-size: 100px;
+    }
+
+    .main .choose .minor {
+        font-size: 40px;
+        max-width: 100%;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .main .services .minor {
+        font-size: 40px;
+        max-width: 100%;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .main .maj2 {
+        font-size: 50px;
+    }
+
+    .main .services .price {
+        font-size: 50px;
+    }
+
+    .main .choose .major {
+        font-size: 50px;
+        margin-top: 100px;
+    }
+
+    .main .services .major {
+        font-size: 50px;
+        padding-top: 100px;
+        padding-bottom: 0;
+    }
+
+    .main .about .major {
+        font-size: 50px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .main .about .name {
+        font-size: 40px;
+        padding-left: 40px;
+    }
+
+    .main .about .degree {
+        font-size: 48px;
+        padding-left: 40px;
+    }
+
+    .main .about .second_block {
+        font-size: 42px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .main .choose .all {
+        margin-top: 100px;
+    }
+
+    .main .services .all {
+        margin-top: 100px;
+    }
+
+    .services img {
+        width: 400px !important;
+        height: 400px !important;
+    }
+
+    .choose img {
+        width: 300px !important;
+        height: 300px !important;
+    }
+
+    .certified {
+        margin-top: -20px;
+    }
+    .certified .icon {
+        margin-bottom: 120px;
+    }
+
+    .footer .soc-networks img {
+        width: 80px !important;
+        height: 80px !important;
+    }
+
+    .footer .soc-networks {
+        grid-gap: 40px;
+    }
+
+    .footer .two {
+        justify-content: normal;
+    }
+
+    .footer .contacts {
+        padding-left: 100px;
+    }
+
+    .main .choose {
+        padding-bottom: 50px;
+    }
+
+    .services .line-b {
+        height: 120px;
+    }
+}
+
+@media (max-width: 786px) {
+    .footer .head-ch, .footer .head-con {
+        font-size: 20px;
+    }
+    .footer .con-loc, .footer .con-phone, .footer .con-mail {
+        font-size: 12px;
+    }
+    .footer .button {
+        font-size: 12px;
+    }
+
+    .footer .contacts {
+        grid-gap : 4px;
+    }
+
+    .footer .head-con {
+        margin-bottom: 23px;
+    }
+
+    .footer .container {
+        height: 310px;
+    }
+
+    .footer .soc-networks img {
+        width: 25px !important;
+        height: 25px !important;
+    }
+
+    .footer .soc-networks {
+        grid-gap: 15px;
+    }
+
+    .footer .two {
+        justify-content: space-between;
+    }
+
+    .footer .contacts {
+        padding-left: 0;
+    }
+}
